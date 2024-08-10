@@ -1,0 +1,170 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eee7e7;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Header styling */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Section styling */
+section {
+    padding: 20px 0;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+/* Profile section styling */
+.profile-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-picture {
+    flex: 0 0 auto;
+    max-width: 150px; /* Adjust size as needed */
+}
+
+.profile-picture img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%; /* Makes the image round */
+    border: 2px solid #ddd; /* Optional border around the image */
+}
+
+.profile-info {
+    flex: 1;
+}
+
+.profile p {
+    margin-bottom: 20px;
+}
+
+/* Skills section styling */
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills ul li {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+/* Internship section styling */
+.internship-item,
+.education-item {
+    margin-bottom: 20px;
+}
+
+.internship-item p {
+    margin-bottom: 5px;
+}
+
+/* Project section styling */
+.project-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.project-item img {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 20px;
+}
+
+.project-info h3 {
+    margin: 0;
+}
+
+/* Other Details section styling */
+.other-details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.other-details ul li {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+/* Contact form styling */
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact label {
+    margin: 10px 0 5px;
+}
+
+.contact input,
+.contact textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact button {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background: #555;
+}
+
+/* Footer styling */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
